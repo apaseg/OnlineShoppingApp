@@ -19,12 +19,16 @@
         android:id="@+id/tvTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
         android:text="LEVI'S"
-        android:layout_marginTop="10dp"
-        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
         android:textStyle="bold"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivHome"/>
+        app:layout_constraintRight_toLeftOf="@+id/rs"
+        app:layout_constraintTop_toBottomOf="@+id/ivHome" />
 
     <TextView
         android:id="@+id/tvAbout"
@@ -32,8 +36,24 @@
         android:layout_height="wrap_content"
         android:text="Women T-shirt"
         android:textSize="18sp"
+        app:flow_horizontalBias="0.0"
+        android:textColor="@color/black"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvTitle"/>
+        app:layout_constraintRight_toLeftOf="@+id/rs"
+        app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+
+    <TextView
+        android:id="@+id/rs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toLeftOf="@+id/tvRate"
+        app:layout_constraintTop_toBottomOf="@+id/ivHome"
+        android:layout_marginTop="10dp"/>
 
     <TextView
         android:id="@+id/tvRate"

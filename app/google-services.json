@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "881568795937",
+    "project_id": "onlineshopping-eb800",
+    "storage_bucket": "onlineshopping-eb800.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881568795937:android:4fbdc3cc39de8926600260",
+        "android_client_info": {
+          "package_name": "com.example.onlineshopping"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881568795937-p38p3k0s284f6ggr9fl13ekhfm5ebg21.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuYxMw9XBNCb_FassHiyZyQMKFE95JFGc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881568795937-p38p3k0s284f6ggr9fl13ekhfm5ebg21.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

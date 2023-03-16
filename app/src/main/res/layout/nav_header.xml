@@ -8,24 +8,19 @@
     android:background="@color/white">
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:src="@drawable/my_image"
+        android:src="@drawable/userimage"
         android:layout_width="60dp"
+        android:layout_marginLeft="20dp"
         android:layout_height="60dp"/>
 
-    <TextView
-        android:id="@+id/user_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Anmol Tiwari"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        android:padding="8dp"/>
 
     <TextView
         android:id="@+id/user_Email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/purple_700"
+        android:textStyle="italic"
         android:text="tiwarianmol163@gmail.com"
         android:textSize="16dp"/>
 

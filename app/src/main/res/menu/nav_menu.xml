@@ -9,12 +9,17 @@
         android:title="Home"
         android:icon="@drawable/ic_baseline_home_24"/>
 
-    <item
-        android:id="@+id/nav_accountInformation"
-        android:title="Account Information"
-        android:icon="@drawable/ic_baseline_account_circle_24"
-        />
+<!--    <item-->
+<!--        android:id="@+id/nav_accountInformation"-->
+<!--        android:title="Account Information"-->
+<!--        android:icon="@drawable/ic_baseline_account_circle_24"-->
+<!--        />-->
 
+    <item
+        android:id="@+id/nav_insertion"
+        android:title="Add Item"
+        android:icon="@drawable/ic_baseline_library_add_24"
+        />
     <item
         android:id="@+id/nav_Cart"
         android:title="Cart"

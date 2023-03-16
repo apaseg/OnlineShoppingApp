@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AccountInfromation">
+    tools:context=".fragments.AccountInfromation">
 <LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +21,7 @@
          android:layout_width="150dp"
          android:layout_height="150dp"
          android:layout_gravity="center"
-         android:src="@drawable/my_image"/>
+         android:src="@drawable/myim"/>
 
      <TextView
          android:layout_width="match_parent"
@@ -142,7 +142,5 @@
             android:textColor="@color/black"/>
 
     </LinearLayout>
-
-
 </LinearLayout>
 </ScrollView>

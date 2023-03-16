@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/ivCrtHome"
+        android:src="@drawable/shopping"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        />
+
+    <TextView
+        android:id="@+id/tvCrtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LEVI'S"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toLeftOf="@+id/rsCrt"
+        app:flow_horizontalBias="0.0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCrtHome"/>
+
+    <TextView
+        android:id="@+id/tvCrtAbout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Women T-shirt"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toLeftOf="@+id/rsCrt"
+        app:flow_horizontalBias="0.0"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvCrtTitle"/>
+
+    <TextView
+        android:id="@+id/rsCrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toLeftOf="@+id/tvCrtRate"
+        app:layout_constraintTop_toBottomOf="@+id/ivCrtHome"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvCrtRate"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rs. 1999"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivCrtHome"/>
+
+    <Button
+        android:id="@+id/btnCrt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buy"
+        app:layout_constraintTop_toBottomOf="@id/tvCrtRate"
+        app:layout_constraintRight_toRightOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

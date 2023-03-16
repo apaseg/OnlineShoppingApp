@@ -4,16 +4,23 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.106" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.106" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/drawable/ic_baseline_library_add_24.xml" value="0.108" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/drawable/ic_baseline_logout_24.xml" value="0.108" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/drawable/ic_baseline_shopping_cart_24.xml" value="0.108" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_insertion.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_login.xml" value="0.14666666666666667" />
-        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_main.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_navigation_drawer.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_side_navigation_drawer.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/activity_side_navigation_drawer.xml" value="0.1" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/app_bar_navigation_drawer.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/cart_item.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/content_navigation_drawer.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_account_infromation.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_cart.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_gallery.xml" value="0.17552083333333332" />
-        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_insertion.xml" value="0.15648148148148147" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/fragment_slideshow.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/home_item.xml" value="0.125" />
         <entry key="..\:/Users/tiwar/AndroidStudioProjects/OnlineShopping/app/src/main/res/layout/nav_header.xml" value="0.17552083333333332" />
