@@ -25,6 +25,7 @@
         android:textColor="@color/black"
         android:textSize="20sp"
         android:textStyle="bold"
+        android:maxWidth="200dp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@+id/rs"
@@ -38,9 +39,10 @@
         android:textSize="18sp"
         app:flow_horizontalBias="0.0"
         android:textColor="@color/black"
+        android:maxWidth="200dp"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toLeftOf="@+id/rs"
+        app:layout_constraintRight_toLeftOf="@+id/ivCart"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
 
     <TextView
@@ -73,6 +75,15 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_baseline_shopping_cart_24"
+        app:layout_constraintTop_toBottomOf="@id/tvRate"
+        android:layout_marginRight="5dp"
+        app:layout_constraintRight_toLeftOf="@id/ivDelete"/>
+
+    <ImageView
+        android:id="@+id/ivDelete"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_delete"
         app:layout_constraintTop_toBottomOf="@id/tvRate"
         app:layout_constraintRight_toRightOf="parent"/>
 

@@ -45,6 +45,7 @@ class SideNavigationDrawerActivity : AppCompatActivity() {
         val eMailString = intent.getStringExtra("Email")
         eMail.text = eMailString.toString()
 
+        replaceFragment(Home(), title = "Home")
         navView.setNavigationItemSelectedListener {
 
             when(it.itemId){

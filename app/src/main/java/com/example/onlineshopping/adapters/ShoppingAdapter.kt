@@ -1,5 +1,6 @@
 package com.example.onlineshopping.adapters
 
+import android.content.Intent
 import android.graphics.PorterDuff
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
@@ -36,6 +37,7 @@ class shoppingAdapter(private val shoppingItemList: ArrayList<shoppingdata>) : R
         holder.rate.text = currentItem.tvRate
         holder.homeImage.setImageURI(currentItem.itemImage?.toUri())
         currentItem.ivCrtImage?.let { holder.crt.setImageResource(it) }
+        currentItem.ivDeleteImage?.let { holder.dlt.setImageResource(it) }
 
         holder.crt.setOnClickListener {
 
@@ -64,7 +66,8 @@ class shoppingAdapter(private val shoppingItemList: ArrayList<shoppingdata>) : R
                         currentItem.tvTitle,
                         currentItem.tvAbout,
                         currentItem.tvRate,
-                        R.drawable.ic_cart
+                        R.drawable.ic_cart,
+                        R.drawable.ic_delete
                     )
                     dbRef.setValue(itemInfo)
                 }
@@ -80,6 +83,20 @@ class shoppingAdapter(private val shoppingItemList: ArrayList<shoppingdata>) : R
             Toast.makeText(holder.itemView.context,"Already Added in Cart",Toast.LENGTH_SHORT).show()
             }
         }
+
+        holder.dlt.setOnClickListener{
+            val dbRef = FirebaseDatabase.getInstance().getReference("shoppings").child(currentItem.itemId!!)
+            val mTast = dbRef.removeValue()
+
+            mTast.addOnSuccessListener {
+                Toast.makeText(holder.itemView.context,"Item Deleted",Toast.LENGTH_SHORT).show()
+            }.addOnFailureListener { error->
+                Toast.makeText(holder.itemView.context,"Deleting err ${error.message}",Toast.LENGTH_SHORT).show()
+            }
+
+            dbCrtRef = FirebaseDatabase.getInstance().getReference("CartItem").child(currentItem.itemId!!)
+            dbCrtRef.removeValue()
+        }
     }
 
     override fun getItemCount(): Int {
@@ -94,6 +111,6 @@ class shoppingAdapter(private val shoppingItemList: ArrayList<shoppingdata>) : R
         val about: TextView = itemView.findViewById(R.id.tvAbout)
         val rate: TextView = itemView.findViewById(R.id.tvRate)
         val crt: ImageView = itemView.findViewById(R.id.ivCart)
-
+        val dlt: ImageView = itemView.findViewById(R.id.ivDelete)
     }
 }
